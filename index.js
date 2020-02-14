@@ -12,7 +12,7 @@ class Circle{
   get area(){
     let a = Math.pow(this.radius ,2) * Math.PI
   }
-  get diameter(){
-    return this.radius * 2
+  set diameter( number){
+     this.radius = number /2
   }
 }
