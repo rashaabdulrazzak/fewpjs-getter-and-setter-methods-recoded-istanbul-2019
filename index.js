@@ -10,6 +10,6 @@ class Circle{
     return 2*this.radius * Math.PI
   }
   get area{
-    return Math.pow (this.radius , 2 ) * Math.PI
+    let a = Math.pow (this.radius , 2 ) * Math.PI
   }
 }
