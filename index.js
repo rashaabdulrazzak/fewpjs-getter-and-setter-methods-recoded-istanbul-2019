@@ -9,7 +9,7 @@ class Circle{
   get circumference(){
     return 2*this.radius * Math.PI
   }
-  get area{
-    let a = Math.pow (this.radius , 2 ) * Math.PI
+  get area(){
+    let a = Math.pow(this.radius ,2) * Math.PI
   }
 }
