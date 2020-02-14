@@ -15,4 +15,7 @@ class Circle{
   set diameter( number){
      this.radius = number /2
   }
+  set circumference(number){
+    this.radius = number /(2 * Math.PI)
+  }
 }
